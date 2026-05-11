@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#EEEEEE"
+            android:gravity="end"
+            android:padding="16dp"
+            android:text="@string/calc_zero"
+            android:textSize="32sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:columnCount="5"
+            android:rowCount="6">
+
+            <!-- Row 1: Clear and Delete First -->
+            <Button android:id="@+id/btnC" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_clear" android:backgroundTint="@color/orange" />
+            <Button android:id="@+id/btnDel" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_delete" />
+            <Button android:id="@+id/btnSin" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_sin" android:textSize="12sp" />
+            <Button android:id="@+id/btnCos" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_cos" android:textSize="12sp" />
+            <Button android:id="@+id/btnTan" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_tan" android:textSize="12sp" />
+
+            <!-- Row 2 -->
+            <Button android:id="@+id/btnCosec" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_cosec" android:textSize="12sp" />
+            <Button android:id="@+id/btnSec"   android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_sec" android:textSize="12sp" />
+            <Button android:id="@+id/btnCot"   android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_cot" android:textSize="12sp" />
+            <Button android:id="@+id/btnLog"   android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_log" android:textSize="12sp" />
+            <Button android:id="@+id/btnLn"    android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_ln" android:textSize="12sp" />
+
+            <!-- Row 3 -->
+            <Button android:id="@+id/btn7" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_seven" />
+            <Button android:id="@+id/btn8" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_eight" />
+            <Button android:id="@+id/btn9" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_nine" />
+            <Button android:id="@+id/btnSqrt" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_sqrt" />
+            <Button android:id="@+id/btnPow"  android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_pow" />
+
+            <!-- Row 4 -->
+            <Button android:id="@+id/btn4" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_four" />
+            <Button android:id="@+id/btn5" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_five" />
+            <Button android:id="@+id/btn6" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_six" />
+            <Button android:id="@+id/btnDiv" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_divide" />
+            <Button android:id="@+id/btnMul" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_multiply" />
+
+            <!-- Row 5 -->
+            <Button android:id="@+id/btn1" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_one" />
+            <Button android:id="@+id/btn2" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_two" />
+            <Button android:id="@+id/btn3" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_three" />
+            <Button android:id="@+id/btnSub" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_subtract" />
+            <Button android:id="@+id/btnEquals" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_equals" />
+
+            <!-- Row 6 -->
+            <Button android:id="@+id/btn0" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_zero" />
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" />
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" />
+            <Button android:id="@+id/btnAdd" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_add" />
+            <Button android:id="@+id/btnDot" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_gravity="fill" android:layout_margin="4dp" android:text="@string/calc_dot" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

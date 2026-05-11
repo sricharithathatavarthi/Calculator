@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582471989683",
+    "project_id": "calculator-141f6",
+    "storage_bucket": "calculator-141f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582471989683:android:3dbd23fc2b119b219433c6",
+        "android_client_info": {
+          "package_name": "com.charitha.loginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxuTzeTABOqz8XJsqkg7AqCqGG1XMQXHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

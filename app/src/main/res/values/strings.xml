@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="welcome_default">Welcome!</string>
+    <string name="go_to_calculator">Go to Calculator</string>
+    <string name="calc_zero">0</string>
+    <string name="calc_clear">C</string>
+    <string name="calc_divide">/</string>
+    <string name="calc_multiply">*</string>
+    <string name="calc_delete">Del</string>
+    <string name="calc_seven">7</string>
+    <string name="calc_eight">8</string>
+    <string name="calc_nine">9</string>
+    <string name="calc_subtract">-</string>
+    <string name="calc_four">4</string>
+    <string name="calc_five">5</string>
+    <string name="calc_six">6</string>
+    <string name="calc_add">+</string>
+    <string name="calc_one">1</string>
+    <string name="calc_two">2</string>
+    <string name="calc_three">3</string>
+    <string name="calc_equals">=</string>
+    <string name="calc_dot">.</string>
+    <string name="login_title">Login</string>
+    <string name="signup_link">Don\'t have an account? Sign Up</string>
+    <string name="or_separator">OR</string>
+    <string name="google_login">Continue with Google</string>
+    <string name="mobile_login">Login with Mobile Number</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="create_password">Create Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="calc_sin">sin</string>
+    <string name="calc_cos">cos</string>
+    <string name="calc_tan">tan</string>
+    <string name="calc_cosec">cosec</string>
+    <string name="calc_sec">sec</string>
+    <string name="calc_cot">cot</string>
+    <string name="calc_log">log</string>
+    <string name="calc_ln">ln</string>
+    <string name="calc_sqrt">√</string>
+    <string name="calc_pow">^</string>
+</resources>
